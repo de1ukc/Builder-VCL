@@ -1,0 +1,159 @@
+#include <iostream>
+using namespace std;
+
+template<typename U>
+class List
+{
+public :
+    List()
+    {
+        Size = 0;
+        head = nullptr;
+    }
+
+    void push_back(U data)
+    {
+        if (head == nullptr)
+        {
+            head = new Day<U>(data);
+        }
+        else
+        {
+            Day<U> *cur = this->head;
+            while (cur->pNext != nullptr)
+            {
+                cur = cur->pNext;
+            }
+            cur->pNext = new Day<U>(data);
+        }
+
+        Size++;
+    }
+
+    int GetSize()
+    {
+        return Size;
+    }
+
+    U& operator[](const int index)
+    {
+        int counter = 0;
+        Day<U> * cur = this->head;
+        while (cur != nullptr)
+        {
+            if (counter == index )
+            {
+                return cur->data;
+            }
+            cur = cur->pNext;
+            counter++;
+        }
+    }
+
+    void pop_front()  // удаление ПЕРВОГО элемента списка
+    {
+        Day<U> *temp = head;
+        head = head->pNext;
+        delete temp;
+        Size--;
+
+    }
+
+    void Clear()
+    {
+        while (Size)
+        {
+            pop_front();
+
+        }
+
+    }
+
+    ~List()
+    {
+        Clear();
+    }
+
+    void push_front(U data)
+    {
+        head = new Day<U>(data,head);
+        Size++;
+    }
+
+    void insert(U data, int index )
+    {
+        if (index == 0)
+        {
+            push_front(data);
+        }
+        else
+        {
+            Day<U> * previus = this->head;
+            for (int i = 0; i < index - 1; i++)
+            {
+
+                previus = previus->pNext;
+            }
+            Day<U> * newDay = new Day<U>(data,previus->pNext);
+            previus->pNext = newDay;
+            Size++;
+        }
+    }
+
+    void removeAT(int index )
+    {
+        if (index == 0)
+        {
+            pop_front();
+        }
+        else
+        {
+            Day<U> *previus = this->head;
+            for(int i = 0 ; i < index -1; i++)
+            {
+                previus = previus->pNext;
+            }
+            Day<U> *toDelete = previus->pNext;
+            previus->pNext = toDelete->pNext;
+            delete toDelete;
+            Size--;
+        }
+    }
+
+    void pop_back(int index )
+    {
+        if (index == 0)
+        {
+            removeAT(0)
+        }
+        else
+        {
+            removeAT(Size - 1);
+        }
+    }
+private:
+    int Size;
+
+    template<typename T>
+    class Day
+    {
+    public:
+        Day *pNext;
+        T data;
+        T age;
+        T day;
+
+        Day(T data = T(),Day *pNext = nullptr )
+        {
+            this->data = data;
+            this->pNext = pNext;
+        }
+    };
+
+    Day<U> *head;
+};
+
+int main()
+{
+    return 0;
+}
