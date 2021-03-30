@@ -190,7 +190,7 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 	else{ throw CloseLoadFromFileWindow("Вы попытались открыть файл, но отменили действие, данные не записаны в программу, пожалуйста, попробуйте ещё раз");}
 	} catch (CloseLoadFromFileWindow &e)
 	{
-	 ShowMessage(e.error);
+	 e.what();
 
 	}
 
