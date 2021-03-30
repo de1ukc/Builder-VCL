@@ -1,0 +1,154 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Form.h"
+#include "List.h"
+#include "Exceptions.h"
+
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+String date_arr[7];
+List<Train> a;
+int count;
+
+void zapoln(List<Train> &a,TStringList * ts){
+Train * arr = new Train[count];
+for(int i = 0; i < count; i++)
+{ arr[i].name 		 =  ts[0][0+4*i];
+  arr[i].destination =  ts[0][1+4*i];
+  arr[i].time 		 =  ts[0][2+4*i];
+  for (int j = 0; j < 7; j++)
+	 {
+	  arr[i].day[j] = date_arr[j];
+	 }
+
+	 a.push_back(arr[i]);
+}
+ /*
+for (int i = 0; i < count; i++)
+	 { ShowMessage(a[i].name);
+	 ShowMessage(a[i].destination);
+	 ShowMessage(a[i].time);
+	 for (int j = 0; j < 7; j++)
+		{ ShowMessage(a[i].day[j]);
+		  ShowMessage(a[i].seats[j]);
+		  break;
+
+		}
+
+	 }
+	 */
+}
+
+void vivod (List<Train> &a,TComboBox *ComboBox1,TComboBox *ComboBox2,TMemo *Memo1) {
+
+for (int i = 0; i < count; i++)
+	 {
+		if (ComboBox1->Text == a[i].name)
+		{ Memo1->Lines->Add(a[i].name);
+		  Memo1->Lines->Add(a[i].destination);
+		  Memo1->Lines->Add(a[i].time);
+		  for (int j = 0; j < 7; j++)
+			 {
+				if (ComboBox2->Text == a[i].day[j])
+					{
+						Memo1->Lines->Add(a[i].day[j]);
+                        Memo1->Lines->Add(a[i].seats[j]);
+					}
+
+			 }
+		}
+
+	 }
+
+
+
+
+}
+
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+	ComboBox1->DoubleBuffered = true;
+	ComboBox1->AutoComplete = true;
+	ComboBox1->AddItem("Train #1",NULL);
+	ComboBox1->AddItem("Train #2",NULL);
+	ComboBox1->AddItem("Train #3",NULL);
+	ComboBox2->DoubleBuffered = true;
+	ComboBox2->AutoComplete = true;
+
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	if (FileOpenDialog1->Execute()) {
+	 TFileStream * tfile = new TFileStream(FileOpenDialog1->FileName, fmOpenReadWrite);
+	 TStringList * ts = new TStringList();
+	 ts->LoadFromStream(tfile);
+	 count = ts->Count/3;
+
+	 for (int i = 0; i < 7; i++)
+		{
+		 date_arr[i] = FormatDateTime("dd.mm.yyyy", DateTimePicker1->Date+i);
+		}
+		zapoln(a,ts);
+
+
+
+
+
+
+
+
+	 //Memo1->Lines = ts;
+	 tfile->Free();
+
+	 delete ts;
+	}
+	else{}
+
+
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button2Click(TObject *Sender)
+{
+	ComboBox2->Clear();
+	for (int i = 0; i < 7; i++)
+		{
+		 date_arr[i] = FormatDateTime("dd.mm.yyyy", DateTimePicker1->Date+i);
+		 ComboBox2->AddItem(date_arr[i],NULL);
+		}
+
+
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+	for (int i = 0; i < 7; i++)
+		{
+		 date_arr[i] = FormatDateTime("dd.mm.yyyy", DateTimePicker1->Date+i);
+		 ComboBox2->AddItem(date_arr[i],NULL);
+		}
+
+} ;
+
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+	vivod(a,ComboBox1,ComboBox2,Memo1);
+
+}
+//---------------------------------------------------------------------------
+
