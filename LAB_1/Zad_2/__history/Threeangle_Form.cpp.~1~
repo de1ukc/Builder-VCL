@@ -1,0 +1,24 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Threeangle_Form.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm3 *Form3;
+int counter = 0;
+//---------------------------------------------------------------------------
+__fastcall TForm3::TForm3(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm3::Button1Click(TObject *Sender)
+{ if (!counter ) {
+	  Threeangle A(StrToInt(LabeledEdit1->text),StrToInt(LabeledEdit4->text),StrToInt(LabeledEdit2->text),StrToInt(LabeledEdit5->text),StrToInt(LabeledEdit3->text),StrToInt(LabeledEdit6->text));
+  }
+
+}
+//---------------------------------------------------------------------------

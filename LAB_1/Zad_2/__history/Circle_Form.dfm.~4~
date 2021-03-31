@@ -1,0 +1,159 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Form2'
+  ClientHeight = 496
+  ClientWidth = 864
+  Color = clBtnHighlight
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 760
+    Top = 48
+    Width = 75
+    Height = 25
+    Caption = 'Show'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object LabeledEdit1: TLabeledEdit
+    Left = 552
+    Top = 52
+    Width = 49
+    Height = 21
+    EditLabel.Width = 3
+    EditLabel.Height = 13
+    TabOrder = 1
+    TextHint = 'x1'
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 616
+    Top = 52
+    Width = 49
+    Height = 21
+    EditLabel.Width = 3
+    EditLabel.Height = 13
+    TabOrder = 2
+    TextHint = 'y1'
+  end
+  object LabeledEdit3: TLabeledEdit
+    Left = 680
+    Top = 52
+    Width = 57
+    Height = 21
+    EditLabel.Width = 3
+    EditLabel.Height = 13
+    TabOrder = 3
+    TextHint = 'radius'
+  end
+  object Button2: TButton
+    Left = 760
+    Top = 88
+    Width = 75
+    Height = 25
+    Caption = #1076#1083#1080#1085#1072' '#1076#1091#1075#1080
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 568
+    Top = 168
+    Width = 139
+    Height = 25
+    Caption = #1048#1079#1084#1077#1085#1077#1085#1080#1077' '#1094#1077#1085#1090#1088#1072' '#1084#1072#1089#1089
+    TabOrder = 5
+  end
+  object Button4: TButton
+    Left = 568
+    Top = 88
+    Width = 139
+    Height = 25
+    Caption = #1048#1079#1084#1077#1085#1077#1085#1080#1077' '#1082#1086#1086#1088#1076#1080#1085#1072#1090
+    TabOrder = 6
+  end
+  object Button5: TButton
+    Left = 760
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = #1062#1077#1085#1090#1088' '#1084#1072#1089#1089
+    TabOrder = 7
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 760
+    Top = 168
+    Width = 75
+    Height = 25
+    Caption = #1055#1083#1086#1097#1072#1076#1100
+    TabOrder = 8
+    OnClick = Button6Click
+  end
+  object LabeledEdit4: TLabeledEdit
+    Left = 568
+    Top = 130
+    Width = 49
+    Height = 21
+    EditLabel.Width = 3
+    EditLabel.Height = 13
+    TabOrder = 9
+    TextHint = 'new x'
+  end
+  object LabeledEdit5: TLabeledEdit
+    Left = 640
+    Top = 130
+    Width = 49
+    Height = 21
+    EditLabel.Width = 3
+    EditLabel.Height = 13
+    TabOrder = 10
+    TextHint = 'new y'
+  end
+  object Button7: TButton
+    Left = 720
+    Top = 208
+    Width = 115
+    Height = 25
+    Caption = #1059#1074#1077#1083#1080#1095#1080#1090#1100' '#1084#1072#1089#1096#1090#1072#1073
+    TabOrder = 11
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Left = 720
+    Top = 248
+    Width = 115
+    Height = 25
+    Caption = #1059#1084#1077#1085#1100#1096#1080#1090#1100' '#1084#1072#1089#1096#1090#1072#1073
+    TabOrder = 12
+  end
+  object Button9: TButton
+    Left = 616
+    Top = 208
+    Width = 75
+    Height = 25
+    Caption = #1042#1088#1072#1097#1077#1085#1080#1077
+    TabOrder = 13
+  end
+  object Button10: TButton
+    Left = 616
+    Top = 248
+    Width = 75
+    Height = 25
+    Caption = #1055#1077#1088#1077#1084#1077#1097#1077#1085#1080#1077
+    TabOrder = 14
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 200
+    OnTimer = Timer1Timer
+    Left = 824
+    Top = 456
+  end
+end
