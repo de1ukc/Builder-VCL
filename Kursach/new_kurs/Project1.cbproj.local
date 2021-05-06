@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.616,D:\New_embarcadero(projects)\SEM_2\Unit1.dfm=D:\New_embarcadero(projects)\SEM_2\Form.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.484,D:\New_embarcadero(projects)\SEM_2\Form.dfm=D:\New_embarcadero(projects)\SEM_2\new_kurs\Form.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.038,D:\New_embarcadero(projects)\SEM_2\Project1.cbproj=D:\New_embarcadero(projects)\SEM_2\new_kurs\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.526,D:\New_embarcadero(projects)\SEM_2\Calc.cpp=D:\New_embarcadero(projects)\SEM_2\new_kurs\Calc.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.616,D:\New_embarcadero(projects)\SEM_2\Unit1.h=D:\New_embarcadero(projects)\SEM_2\Form.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.484,D:\New_embarcadero(projects)\SEM_2\Form.cpp=D:\New_embarcadero(projects)\SEM_2\new_kurs\Form.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.541,D:\New_embarcadero(projects)\SEM_2\Unit2.h=D:\New_embarcadero(projects)\SEM_2\Calc.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.524,=D:\New_embarcadero(projects)\SEM_2\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.484,D:\New_embarcadero(projects)\SEM_2\Form.h=D:\New_embarcadero(projects)\SEM_2\new_kurs\Form.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.787,=D:\New_embarcadero(projects)\SEM_2\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.616,D:\New_embarcadero(projects)\SEM_2\Unit1.cpp=D:\New_embarcadero(projects)\SEM_2\Form.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.541,D:\New_embarcadero(projects)\SEM_2\Unit2.cpp=D:\New_embarcadero(projects)\SEM_2\Calc.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.398,D:\New_embarcadero(projects)\SEM_2\Project1PCH1.h=D:\New_embarcadero(projects)\SEM_2\new_kurs\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.526,D:\New_embarcadero(projects)\SEM_2\Calc.h=D:\New_embarcadero(projects)\SEM_2\new_kurs\Calc.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.914,=D:\New_embarcadero(projects)\SEM_2\Unit2.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
