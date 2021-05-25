@@ -71,7 +71,6 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 
 		 Calc A(StrToInt(LabeledEdit1->Text),StringGrid1);
 		 int k = A.determinant(A.arr,A.rows);
-		 A.deleting(A.arr, A.rows);
 		 Edit2->Text = IntToStr(k);
 	}
 	else
@@ -80,7 +79,6 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 
 		 Calc B(StrToInt(LabeledEdit1->Text),StringGrid2);
 		 int k = B.determinant(B.arr,B.rows);
-		 B.deleting(B.arr, B.rows);
 		 Edit2->Text = IntToStr(k);
 	}
 }

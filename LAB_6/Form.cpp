@@ -12,9 +12,9 @@ TForm1 *Form1;
 
 Node * root;
 int Size = 0;
-void tree( Node * rt,int kl, TTreeView * TreeView1  ){
+void tree( Node * rt,int kl, TTreeView * TreeView1 ){
 	 /*
-	TreeView1->Items->Add(node,out_by_key(root,root->key));
+		TreeView1->Items->Add(node,out_by_key(root,root->key));
 
 	if (root->left != nullptr)
 	 {
@@ -107,11 +107,13 @@ void __fastcall TForm1::óäàëèòüClick(TObject *Sender)
 {
  root = Delete(root,StrToInt(Edit1->Text));
  if(root == nullptr) ShowMessage("da");
+ /*
  TraversInOrder(root);
  ShowMessage("!!!!!!");
  TraversPostOrder(root);
  ShowMessage("!!!!!!");
  TraversPreOrder(root);
+ */
  TreeView1->Items->Clear();
  tree(root,-1,TreeView1);
 }
