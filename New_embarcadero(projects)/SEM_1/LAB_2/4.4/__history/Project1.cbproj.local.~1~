@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020.09.22 12:37:57.326,=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020.09.22 12:37:57.514,=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2020.09.22 12:54:19.976,D:\New_embarcadero(projects)\LAB_2\4.4\File1.cpp=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2020.09.22 12:54:21.751,D:\New_embarcadero(projects)\LAB_2\4.4\Project1PCH1.h=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020.09.22 12:54:23.698,D:\New_embarcadero(projects)\LAB_2\4.4\Project1.cbproj=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

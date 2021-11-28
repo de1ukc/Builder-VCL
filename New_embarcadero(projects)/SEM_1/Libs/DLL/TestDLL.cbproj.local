@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.786,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\TestDLL.cbproj=D:\New_embarcadero(projects)\Libs\DLL\TestDLL.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.659,=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.732,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\File1.cpp=D:\New_embarcadero(projects)\Libs\DLL\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.706,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\TestDLLPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.712,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\TestDLL.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.819,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\TestDLLPCH1.h=D:\New_embarcadero(projects)\Libs\DLL\TestDLLPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.560,=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+  </Transactions>
+</BorlandProject>

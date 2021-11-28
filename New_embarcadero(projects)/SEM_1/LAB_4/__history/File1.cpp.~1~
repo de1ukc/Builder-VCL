@@ -1,0 +1,34 @@
+#pragma hdrstop
+#pragma argsused
+
+#ifdef _WIN32
+#include <tchar.h>
+#else
+  typedef char _TCHAR;
+  #define _tmain main
+#endif
+
+#include <stdio.h>
+#include <conio.h>
+#include <iostream>
+#include <math.h>
+#include <stdio.h>
+
+using namespace std;
+
+
+
+
+int _tmain(int argc, _TCHAR* argv[]) 
+{    system ("chcp 1251>nul") ;
+
+	 cout<<"введите колиечество столбцов массива, size = "<<endl;
+	 cin>>size;
+	 int  a[size];
+	 for (int i = 0; i < size; i++)
+	   {
+		 cin>>a[i];
+		 cout<<a[i];
+	   }
+	return 0;
+}

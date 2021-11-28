@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.753,=D:\New_embarcadero(projects)\Libs\primer\Win32\Debug\Mylib.lib</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.941,D:\New_embarcadero(projects)\Libs\primer\Utest.cpp=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Utest.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.707,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Utest.cpp=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\File2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.523,D:\New_embarcadero(projects)\Libs\primer\Project1PCH1.h=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.890,D:\New_embarcadero(projects)\Libs\primer\Project1.cbproj=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\File2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.314,=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+  </Transactions>
+</BorlandProject>
