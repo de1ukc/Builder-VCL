@@ -1,0 +1,18 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit2H
+#define Unit2H
+#include <vcl.h>
+//---------------------------------------------------------------------------
+class Stuff{
+	public:
+	String name;
+	String project;
+	String task;
+	String start;
+	String finish;
+	String time;
+	void Write(TStringList *ts,int Count, Stuff* st);
+	void AddData(TMemo*Memo1, TStringList*ts, Stuff* st);
+};
+#endif

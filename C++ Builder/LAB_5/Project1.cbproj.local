@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.206,D:\New_embarcadero(projects)\SEM_2\Form.dfm=D:\New_embarcadero(projects)\SEM_2\LABS\LAB_5\Form.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.821,D:\New_embarcadero(projects)\SEM_2\Project1.cbproj=D:\New_embarcadero(projects)\SEM_2\LABS\LAB_5\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.776,D:\New_embarcadero(projects)\SEM_2\Project1PCH1.h=D:\New_embarcadero(projects)\SEM_2\LABS\LAB_5\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.897,D:\New_embarcadero(projects)\SEM_2\Unit2.h=D:\New_embarcadero(projects)\SEM_2\Deque.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.348,D:\New_embarcadero(projects)\SEM_2\Unit1.h=D:\New_embarcadero(projects)\SEM_2\Form.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.206,D:\New_embarcadero(projects)\SEM_2\Form.cpp=D:\New_embarcadero(projects)\SEM_2\LABS\LAB_5\Form.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.348,D:\New_embarcadero(projects)\SEM_2\Unit1.dfm=D:\New_embarcadero(projects)\SEM_2\Form.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.288,=D:\New_embarcadero(projects)\SEM_2\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.636,=D:\New_embarcadero(projects)\SEM_2\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.348,D:\New_embarcadero(projects)\SEM_2\Unit1.cpp=D:\New_embarcadero(projects)\SEM_2\Form.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.515,=D:\New_embarcadero(projects)\SEM_2\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.897,D:\New_embarcadero(projects)\SEM_2\Unit2.cpp=D:\New_embarcadero(projects)\SEM_2\Deque.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.611,D:\New_embarcadero(projects)\SEM_2\Deque.cpp=D:\New_embarcadero(projects)\SEM_2\LABS\LAB_5\Deque.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.611,D:\New_embarcadero(projects)\SEM_2\Deque.h=D:\New_embarcadero(projects)\SEM_2\LABS\LAB_5\Deque.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.206,D:\New_embarcadero(projects)\SEM_2\Form.h=D:\New_embarcadero(projects)\SEM_2\LABS\LAB_5\Form.h</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.976,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\File1.cpp=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\MyDLL.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.622,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\NewLibDLL.cbproj=D:\New_embarcadero(projects)\Libs\DLL-True\NewLibDLL.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.990,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\NewLibDLL.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.021,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\NewLibDLLPCH1.h=D:\New_embarcadero(projects)\Libs\DLL-True\NewLibDLLPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.128,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\UMyDLL.h=D:\New_embarcadero(projects)\Libs\DLL-True\UMyDLL.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.095,=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.134,=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\File2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.746,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\File2.h=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\UMyDLL.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.310,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\MyDLL.cpp=D:\New_embarcadero(projects)\Libs\DLL-True\MyDLL.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.964,=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.984,C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\Trapp\Documents\Embarcadero\Studio\Projects\NewLibDLLPCH1.h</Transaction>
+  </Transactions>
+</BorlandProject>

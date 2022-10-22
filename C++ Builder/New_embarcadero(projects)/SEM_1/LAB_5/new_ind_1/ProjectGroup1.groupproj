@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DFD34CAD-FF57-4DB8-B95A-81224C1B5558}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MyLib.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Zad.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MyLib">
+        <MSBuild Projects="MyLib.cbproj"/>
+    </Target>
+    <Target Name="MyLib:Clean">
+        <MSBuild Projects="MyLib.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MyLib:Make">
+        <MSBuild Projects="MyLib.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Zad">
+        <MSBuild Projects="Zad.cbproj"/>
+    </Target>
+    <Target Name="Zad:Clean">
+        <MSBuild Projects="Zad.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Zad:Make">
+        <MSBuild Projects="Zad.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MyLib;Zad"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MyLib:Clean;Zad:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MyLib:Make;Zad:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

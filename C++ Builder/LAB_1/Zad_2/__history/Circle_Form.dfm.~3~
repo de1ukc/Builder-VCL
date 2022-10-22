@@ -1,0 +1,68 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Form2'
+  ClientHeight = 496
+  ClientWidth = 864
+  Color = clBtnHighlight
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 760
+    Top = 48
+    Width = 75
+    Height = 25
+    Caption = 'draw'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object LabeledEdit1: TLabeledEdit
+    Left = 552
+    Top = 52
+    Width = 49
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit1'
+    TabOrder = 1
+    TextHint = 'x1'
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 616
+    Top = 52
+    Width = 49
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit2'
+    TabOrder = 2
+    TextHint = 'y1'
+  end
+  object LabeledEdit3: TLabeledEdit
+    Left = 680
+    Top = 52
+    Width = 57
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit3'
+    TabOrder = 3
+    TextHint = 'radius'
+  end
+  object Button2: TButton
+    Left = 760
+    Top = 88
+    Width = 75
+    Height = 25
+    Caption = #1076#1083#1080#1085#1072' '#1076#1091#1075#1080
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+end
